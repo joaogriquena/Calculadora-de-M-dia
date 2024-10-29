@@ -19,17 +19,17 @@
         </header>
         <form>
             <input type="text" required placeholder="Nome da atividade">
-            <input type="number" required placeholder="Nota da atividade" min="0" max="10">
+            <input type="number" required placeholder="Nota" min="0" max="10">
             <button type="submit">Adicionar +</button>
         </form>
-        <table>
+        <table cellspacing="0">
             <thead>
                 <tr>
                     <th>
                         Nome da atividade
                     </th>
                     <th>
-                        Nota da atividade
+                        Nota
                     </th>
                     <th>
                         Aprovado?
@@ -47,7 +47,7 @@
                 <tr>
                     <td>Média final</td>
                     <td>7</td>
-                    <td>Aprovado</td>
+                    <td><span class="resultado aprovado">Aprovado</span></td>
                 </tr>
             </tfoot>
         </table>
